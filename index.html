@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+					<a class="navbar-brand" href="#">Domingo Pulgar Web</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+							<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+							<div class="offcanvas-header">
+									<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							</div>
+							<div class="offcanvas-body">
+									<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+											<li class="nav-item">
+													<a class="nav-link active" aria-current="page" href="#">Home</a>
+											</li>
+											<li class="nav-item">
+													<a class="nav-link" href="#">Biografia</a>
+											</li>
+											<li class="nav-item dropdown">
+													<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+															Enlaces
+													</a>
+													<ul class="dropdown-menu dropdown-menu-dark">
+															<li><a class="dropdown-item" href="#">Experiencia Laboral</a></li>
+															<li><a class="dropdown-item" href="#">Habilidades</a></li>
+															<li>
+																	<hr class="dropdown-divider">
+															</li>
+															<li><a class="dropdown-item" href="#">Idiomas</a></li>
+													</ul>
+											</li>
+									</ul>
+									<form class="d-flex mt-3" role="search">
+											<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+											<button class="btn btn-success" type="submit">Search</button>
+									</form>
+							</div>
+					</div>
+			</div>
+	</nav>
+	</header>
+ <main class="biografy_main">
+  <div class="profile_first">
+   <img class="profile_photo" src="./img/profile_photo.jpg" alt="Foto de perfil">
+			<h1 class="profile_presentation">
+		 	¡Hola! Mi nombre es <b>Domingo I Pulgar D.</b><br> Y soy Desarrollador Web.<br><br>Hoy vengo a contarte parte de mi vida, espero sea de tu agrado.
+			</h1>
+		</div>
+		<div class="section_principal">
+			<div class="title_div">
+				<h3 class="title_section">Biografia</h3>
+					<div class="box-general1">
+						<p>
+						Nací en Venezuela Edo. Carabobo.	El 2 de agosto de 1992. Lugar donde viví 28 años de mi vida, donde mi familia actualmente sigue viviendo. Actualmente me mude a Buenos Aires, hace 5 años llegue a este maravilloso pais, que me abrio las puertas y ha sido de mucha bendicion desde el momento que pise el Aeropuerto Internacional Ezeiza, he conocido gente increible, que se han convertido en mi familia y en grandes amigos. Me dedico al Diseño grafico, con tendencia al desarrollor web. Con aspiraciones de pronto dedicarme al area Front-End. Espero pronto estar preparado para poder cumplir uno de mis sueños que estar en el area de desarrollo y poder potenciar mi conocimiento y habilidades en el rubro.
+						</p>
+					</div>
+			</div>
+			<div class="section-profesional">
+				<div>
+					<h3>Experencia Laboral.</h3>
+					<ul>
+						<li>Auto Asist SRL.</li>
+						<li>AccessSystem SRL.</li>
+						<li>Cursos Online Iberoamerica.</li>
+						<li>Musikoz.</li>
+						<li>Centro Medico Doctor Bottini.</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Familia:</h3>
+						<h5>Cónyuge:</h5>
+							<ul>
+								<li>Milagros Sanchez (matr. 2017; actual).</li>
+							</ul>
+							<h5>Padres:</h5>
+								<ul>
+									<li>Normarina Diaz.</li>
+									<li>Domingo Pulgar.</li>
+								</ul>
+					</div>
+				<div>
+					<h4>Habilidades:</h4>
+					<ul>
+						<li>Photoshop (nivel avanzado).</li>
+						<li>Illustrator (nivel avanzado).</li>
+						<li>Figma (nivel intermedio).</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Idiomas:</h4>
+					<ul>
+						<li>Ingles (nivel avanzado).</li>
+						<li>Español (nativo).</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>		
+		</section>
+		<section class="trabajos-diseñador">
+			<h1>Parte de mi trabajo como diseñador</h1>
+			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+						<div class="carousel-item active" data-bs-interval="10000">
+								<img src="./img/Mesa de trabajo 5 copia 14.png" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+										<h5>Alta Gama restaurante</h5>
+										<p>Tablet</p>
+								</div>
+						</div>
+						<div class="carousel-item" data-bs-interval="2000">
+								<img src="./img/Mesa de trabajo 5 copia 15.png" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+										<h5>Alta Gama Restaurante</h5>
+										<p>Tajertas de Presentacion</p>
+								</div>
+						</div>
+						<div class="carousel-item">
+								<img src="./img/Mesa de trabajo 5 copia 16.png" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+										<h5>Alta Gama Restaurante</h5>
+										<p>Fachada</p>
+								</div>
+						</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+				</button>
+		</div>
+		</section>
+
+
+  </main>
+  <footer class="footer">
+   <p>Biografia &copy; 2022</p>
+  </footer>
+</body>
+</html>

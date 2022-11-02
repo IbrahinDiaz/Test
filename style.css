@@ -1,0 +1,100 @@
+body{
+ background-image: linear-gradient(
+  rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)
+ ), 
+  url(./img/background_profile.jfif);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+p{
+ padding-bottom: 20px;
+}
+
+section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.profile_first {
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 80px;
+ padding: 20px;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ background-color: rgba(255,255,255, 0.7);
+ border-radius: 20px;
+}
+
+.profile_photo {
+ width: 20%;
+ height: 20%;
+ margin: 10px;
+ border-radius: 100%;
+ border: solid black;
+}
+
+.profile_presentation {
+ color: black;
+ width: 75%;
+ margin: auto 0;
+ font-size: 30px;
+ text-align: center ;
+}
+
+.section_principal{
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 50px;
+ padding: 20px;
+ display: block;
+ background-color: rgba(255,255,255, 0.7);
+ border-radius: 20px;
+}
+
+.section-profesional{
+ display: grid;
+ grid-template-columns: repeat(2, 50%);
+}
+
+.title_div{
+ display: block;
+}
+
+.title_section{
+ padding-bottom: 20px;
+ font-size: 2.5rem;
+ justify-content: center;
+ text-align: center;
+}
+
+.footer{
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 20px;
+ padding: 20px;
+ color: wheat;
+ align-items: center;
+ display: flex;
+}
+
+.footer {
+ display: block;
+ text-align: center;
+ justify-content: center;
+}
+
+.trabajos-diseñador{
+ margin-top: 30px;
+ background-color: rgba(0, 0, 0, 0.4);
+ color: white;
+ text-align: center;
+ justify-content: center;
+}
+
+.background-slide {}
